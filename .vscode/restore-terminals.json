@@ -1,0 +1,29 @@
+{
+  "runOnStartup": false,
+  "terminals": [
+    {
+      "splitTerminals": [
+        {
+          "name": "Backend",
+          "commands": ["cd Backend", "npm start"]
+        }
+      ]
+    },
+    {
+      "splitTerminals": [
+        {
+          "name": "frontend",
+          "commands": ["cd frontend", "npm run dev"]
+        }
+      ]
+    },
+    {
+      "splitTerminals": [
+        {
+          "name": "SpeakingAgent",
+          "commands": ["cd SpeakingAgent", ". ./EnglishExam/Scripts/activate"]
+        }
+      ]
+    }
+  ]
+}
